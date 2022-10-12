@@ -4,59 +4,44 @@
     <meta charset="UTF-8">
     <title>User registration</title>
   <link rel="stylesheet" href="style.css"/>
-  <script src="script.js"></script>
 </head>
 
 <body>
 <div class="container">
   <form>
-    <i class="fas fa-paper-plane"></i>
 
     <div class="input-group">
-      <label>First Name</label>
-      <input type="text" placeholder="Enter your first name">
-    </div>
-
-    <div class="input-group">
-      <label>Last Name</label>
-      <input type="text" placeholder="Enter your last name">
-    </div>
-
-    <div class="input-group">
-      <label>User Name</label>
-      <input type="text" placeholder="Enter your user name">
-    </div>
-
-    <div class="input-group">
-      <label>Password</label>
-      <input type="text" placeholder="Enter your password">
-    </div>
-
-    <div class="input-group">
-      <label>Confirm your password</label>
-      <input type="text" placeholder="Confirm your password">
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name" id="name-Input" onkeyup="validateName()";/>
+      <span id="name-error"></span>
     </div>
 
     <div class="input-group">
       <label>Phone No.</label>
-      <input type="tel" placeholder="123 456 7890">
+      <input type="tel" placeholder="123 456 7890" id="contact-phone" onkeyup="validatePhone()";/>
+      <span id="phone-error"></span>
     </div>
 
     <div class="input-group">
       <label>Email</label>
-      <input type="email" placeholder="Enter Email">
+      <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()";/>
+      <span id="email-error"></span>
     </div>
+
 
     <div class="input-group">
       <label>About yourself</label>
-      <textarea rows="5" placeholder="Enter your description"></textarea>
+      <textarea rows="5" placeholder="Enter your description" id="aboutYou-message" onkeyup="validateMessage()";/></textarea>
+      <span id="about-you-error"></span>
     </div>
 
-    <button>Submit</button>
+
+    <button onclick="return validateForm()">Submit</button>
+    <span id="submit-error"></span>
 
   </form>
 
 </div>
-
+  <script src="script.js"></script>
 </body>
 </html>
