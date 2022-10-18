@@ -4,6 +4,10 @@
   <groupId>com.homework.project</groupId>
   <artifactId>HomeworkAnaHTML</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
   <name>Archetype - HomeworkAnaHTML</name>
   <url>http://maven.apache.org</url>
 </project>
