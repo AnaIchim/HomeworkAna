@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="742236b0-30d0-4836-b39b-fc85073695df" name="Changes" comment="" />
+    <list default="true" id="742236b0-30d0-4836-b39b-fc85073695df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/MathFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeworkJava01/arithmeticCalculator_leapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/arithmeticCalculator_leapYear.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666723867084</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit homeworkJava01">
+      <created>1666724078584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666724078584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

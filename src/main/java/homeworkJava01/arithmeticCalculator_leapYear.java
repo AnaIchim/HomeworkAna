@@ -1,9 +1,12 @@
 package homeworkJava01;
 
+import static homeworkJava01.MathFunctions.computeVolume;
+import static homeworkJava01.MathFunctions.runVolume;
+
 public class arithmeticCalculator_leapYear {
 
-    public static void main (String[] args) {
-        if (args.length == 3) {
+ public static void main (String[] args) {
+       /* if (args.length == 3) {
             float a = Float.parseFloat(args[0]);
             float b = Float.parseFloat(args[2]);;
             String operator = args[1];
@@ -50,7 +53,9 @@ public class arithmeticCalculator_leapYear {
 
         {
             System.out.println(year + " is not in range 1600-2016");
-        }
+        } */
+
+     runVolume();
 
     }
 }
