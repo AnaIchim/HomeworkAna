@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="742236b0-30d0-4836-b39b-fc85073695df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/NewMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/BuildingHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/TypeOfRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/BrowserUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homeworkJava01/NewMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homeworkJava01/NewMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HomeworkApp02">
+  <component name="RunManager" selected="TestNG.RegistrationTest.registrationTest">
     <configuration name="HomeworkApp01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="homeworkJava01.arithmeticCalculator_leapYear" />
       <module name="HomeworkAna" />
@@ -62,10 +69,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.registrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeworkAna" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="registrationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.HomeworkApp01" />
       <item itemvalue="Application.HomeworkApp02" />
+      <item itemvalue="TestNG.RegistrationTest.registrationTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RegistrationTest.registrationTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666823920676</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit homework Author + Book">
+      <created>1667035876538</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667035876538</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +173,7 @@
     <MESSAGE value="commit registration form" />
     <MESSAGE value="commit homeworkJava01" />
     <MESSAGE value="commit homework computeVolume()" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit homework computeVolume()" />
+    <MESSAGE value="commit homework Author + Book" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit homework Author + Book" />
   </component>
 </project>
